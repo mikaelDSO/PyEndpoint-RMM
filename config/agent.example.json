@@ -1,0 +1,19 @@
+{
+  "_comentario": "Copie para %PROGRAMDATA%\\PyEndpointRMM\\agent.json e ajuste. Chaves iniciadas por '_' sao ignoradas.",
+  "agent_id": "",
+  "shared_dir": "\\\\SERVIDOR\\rmm_share",
+  "admin_public_key": "",
+  "data_dir": "",
+  "poll_interval_sec": 5,
+  "heartbeat_interval_sec": 30,
+  "max_command_ttl_sec": 900,
+  "reboot_delay_sec": 60,
+  "script_timeout_sec": 300,
+  "allowed_script_exts": [".bat", ".cmd", ".ps1", ".py"],
+  "allowed_update_dirs": ["C:\\Program Files\\MinhaEmpresa\\Apps"],
+  "monitored_processes": ["MsMpEng.exe"],
+  "report_logged_users": true,
+  "dry_run": true,
+  "helpdesk_url": "",
+  "log_level": "INFO"
+}

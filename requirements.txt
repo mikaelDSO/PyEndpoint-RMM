@@ -1,0 +1,5 @@
+# PyEndpoint-RMM - dependencias de execucao (Python 3.9+)
+cryptography>=42.0.0   # assinatura Ed25519, scrypt e AES-GCM (obrigatorio)
+psutil>=5.9.8          # metricas do heartbeat: CPU, memoria, processos (recomendado)
+# tkinter (GUI do ticket_notifier) vem com o Python no Windows.
+# No Debian/Ubuntu: sudo apt install python3-tk

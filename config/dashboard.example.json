@@ -1,0 +1,5 @@
+{
+  "_comentario": "Gerado automaticamente por 'dashboard.py init'. Fica em %APPDATA%\\PyEndpointRMM-Admin\\dashboard.json",
+  "shared_dir": "\\\\SERVIDOR\\rmm_share",
+  "session_timeout_sec": 900
+}

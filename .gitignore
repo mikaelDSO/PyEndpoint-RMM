@@ -1,0 +1,49 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Ambientes virtuais ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Segredos e configuracao real (NUNCA versionar) ---
+admin_key.json
+admin_pub.pem
+*.pem
+*.key
+config/agent.json
+config/dashboard.json
+.env
+.env.*
+
+# --- Dados de execucao ---
+logs/
+*.log
+audit.jsonl
+state.json
+staging/
+spool/
+outbox/
+*.part
+*.bak
+
+# --- IDE / SO ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

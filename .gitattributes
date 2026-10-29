@@ -1,0 +1,6 @@
+# Batch do Windows precisa de CRLF; Python/Markdown ficam em LF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.py  text eol=lf
+*.md  text eol=lf
+*.json text eol=lf

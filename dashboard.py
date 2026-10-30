@@ -346,6 +346,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     p = sub.add_parser("init", help="gera chaves e prepara o compartilhamento")
     p.add_argument("--force", action="store_true")
+        # Aceita --shared-dir também depois do subcomando
+    p.add_argument("--shared-dir", dest="shared_dir", default=argparse.SUPPRESS,
+                   help="pasta compartilhada com os agentes")
     p.set_defaults(func=cmd_init)
 
     sub.add_parser("agents", help="lista agentes e estado").set_defaults(func=cmd_agents)

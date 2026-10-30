@@ -8,6 +8,7 @@
 ![Status](https://img.shields.io/badge/status-alpha-orange)
 ![Assinatura](https://img.shields.io/badge/comandos-assinados%20Ed25519-success)
 ![Sem dependência de servidor](https://img.shields.io/badge/infra-sem%20servidor%20dedicado-lightgrey)
+![Testes](https://github.com/mikaelDSO/PyEndpoint-RMM/actions/workflows/tests.yml/badge.svg)
 
 ---
 
@@ -338,6 +339,7 @@ Chamados chegam ao ADM com `python dashboard.py tickets`.
 | **Path traversal** | Nomes e IDs passam por `rmm_common.safe_id`; destinos de `update` são resolvidos e conferidos contra `allowed_update_dirs`. |
 
 ### Checklist de hardening
+
 
 - [ ] **Use senha longa** (frase-senha) e guarde `admin_key.json` apenas na estação do administrador (com backup cifrado).
 - [ ] **Instale em pasta não gravável por usuários** (`%ProgramFiles%`). O agente roda como SYSTEM: se um usuário puder editar o código ou o `agent.json`, ele escala privilégios. O instalador já aplica as ACLs corretas.
